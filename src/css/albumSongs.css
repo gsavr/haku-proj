@@ -1,0 +1,42 @@
+.list-wrapper{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.song-list{
+    display: flexbox;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    background-color: #eeeeee;
+    color: #0085B2;
+    border-radius: 3px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.ind-song{
+    padding:10px;
+    border-bottom: 1px #5e5b5b solid;
+    font-size: smaller;
+    position: relative;
+    
+}
+
+.ind-song:hover, .ind-song:hover * {
+    background-color: #0085B2;
+    color: white;
+}
+
+.label{
+    background-color: #c3c5c5;
+    color: black;
+    margin: 0 2px;
+    padding: 0 5px;
+    font-size: smaller
+}
+
+.song-detail-right{
+    position: absolute;
+    right:15px;
+}

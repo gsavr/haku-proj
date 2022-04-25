@@ -1,0 +1,61 @@
+.material-icons{
+    line-height: 0;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.favorite-false{
+    color: #c3c5c5
+}
+
+.favorite-true{
+    color:#9e9e19;
+    outline:1pt;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    font-family: 'Roboto', sans-serif;
+    font-size: smaller;
+    visibility: hidden;
+    width: 100px;
+    height: 4px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 12%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .tooltiptext {
+      padding-top: 10px;
+      margin-top: 5px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
