@@ -4,7 +4,7 @@ import {
   Navigation,
   Pagination,
   A11y,
-  Mousewheel,
+  //Mousewheel,
   Keyboard,
   EffectCoverflow,
 } from "swiper";
@@ -21,7 +21,7 @@ const Carousel = ({ albums, setAlbum }) => {
         Navigation,
         Pagination,
         A11y,
-        Mousewheel,
+        //Mousewheel,
         Keyboard,
         EffectCoverflow,
       ]}
@@ -40,7 +40,7 @@ const Carousel = ({ albums, setAlbum }) => {
       navigation
       centeredSlides={true}
       pagination={{ clickable: true }}
-      mousewheel={true}
+      /* mousewheel={true} */
       keyboard={true}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={(swiper) => setAlbum(swiper.activeIndex)}

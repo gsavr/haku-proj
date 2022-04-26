@@ -18,7 +18,7 @@
 .ind-song{
     padding:10px;
     border-bottom: 1px #5e5b5b solid;
-    font-size: smaller;
+    font-size: small;
     position: relative;
     
 }
@@ -33,7 +33,7 @@
     color: black;
     margin: 0 2px;
     padding: 0 5px;
-    font-size: smaller
+    font-size: small
 }
 
 .song-detail-right{

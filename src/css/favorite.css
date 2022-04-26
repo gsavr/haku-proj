@@ -22,7 +22,7 @@
   
   .tooltip .tooltiptext {
     font-family: 'Roboto', sans-serif;
-    font-size: smaller;
+    font-size: small;
     visibility: hidden;
     width: 100px;
     height: 4px;
